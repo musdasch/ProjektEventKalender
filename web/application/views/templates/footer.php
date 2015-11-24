@@ -13,9 +13,9 @@
 	<em>Tim Vögtli - &copy; 2015</em>
 
 	<!-- Load java script for foundation6 -->
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/foundation.min.js"></script>
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/foundation.min.js"></script>
 
 </body>
 </html>

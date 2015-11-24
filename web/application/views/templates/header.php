@@ -16,8 +16,8 @@
 	<title><?php echo $title; ?></title>
 
 	<!-- CSS for foundation6 -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/foundation.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/foundation.min.css">
 
 </head>
 <body>
