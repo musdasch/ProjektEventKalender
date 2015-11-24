@@ -36,15 +36,15 @@ class Pages extends CI_Controller {
 	         * Set the title and pabe_name for using in the pages and templates, the first
 	         * character is capitaliced.
 	         */
-			$this->data[ 'title' ] = ucfirst($page);
+			$this->data[ 'title' ] = ucfirst( $page );
 			$this->data[ 'page' ] = $page;
 
 			/**
 			 * Loads the tamplates and the page for a static page.
 			 */
-			$this->load->view('templates/header', $this->data);
-			$this->load->view('pages/' . $this->data[ 'page' ], $this->data);
-			$this->load->view('templates/footer', $this->data);
+			$this->load->view( 'templates/header', $this->data );
+			$this->load->view( 'pages/' . $this->data[ 'page' ], $this->data );
+			$this->load->view( 'templates/footer', $this->data );
         }
 
 }
