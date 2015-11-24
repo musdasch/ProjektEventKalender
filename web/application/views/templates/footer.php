@@ -7,10 +7,12 @@
  * @version 1.1 The new version wrapped the contend in a colum of fundation6.
  */
 ?>
-		</div>
 	</div>
+	
 	<!-- Copyright line -->
-	<em>Tim Vögtli - &copy; 2015</em>
+	<div class="column row">
+		<em>Tim Vögtli - &copy; 2015</em>
+	</div>
 
 	<!-- Load java script for foundation6 -->
 	<script src="assets/js/vendor/jquery.min.js"></script>

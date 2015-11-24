@@ -21,10 +21,10 @@
 
 </head>
 <body>
-	<div class="row">
-		<div class="small-12 columns">
-			<h1><?php echo $title; ?></h1>
-		</div>
+	<!-- Title -->
+	<div class="column row">
+		<h1><?php echo $title; ?></h1>
 	</div>
-	<div class="row">
-		<div class="small-12 columns">
+
+	<!-- Contend -->
+	<div class="column row">
