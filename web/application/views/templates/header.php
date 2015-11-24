@@ -22,9 +22,9 @@
 </head>
 <body>
 	<!-- Title -->
-	<div class="column row">
+	<div id="title" class="column row">
 		<h1><?php echo $title; ?></h1>
 	</div>
 
-	<!-- Contend -->
-	<div class="column row">
+	<!-- Content -->
+	<div id="content" class="column row">

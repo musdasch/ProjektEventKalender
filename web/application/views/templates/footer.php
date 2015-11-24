@@ -8,9 +8,9 @@
  */
 ?>
 	</div>
-	
+
 	<!-- Copyright line -->
-	<div class="column row">
+	<div id="copyright" class="column row">
 		<em>Tim Vögtli - &copy; 2015</em>
 	</div>
 
