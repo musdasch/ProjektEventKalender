@@ -15,10 +15,13 @@
 	<!-- Page title -->
 	<title><?php echo $title; ?></title>
 
+	<!-- Page icon -->
+	<link rel="icon" href="<?php echo base_url( 'assets/img/' . $page . '-favicon.gif' )?>" type="image/gif">
+
 	<!-- CSS for foundation6 -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/foundation.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url( 'assets/css/style.css' ); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url( 'assets/css/foundation.min.css' ); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url( 'assets/css/foundation.min.css' ); ?>">
 
 </head>
 <body>
