@@ -10,27 +10,41 @@
  */
 class Pages extends CI_Controller {
 
+		private $data = array();
+
+		public function __construct() {
+			parent::__construct();
+
+			/**
+			 * Loads the url helper for using
+			 * base_url() or oder funktions.
+			 */
+            $this->load->helper('url');
+        }
+
         public function view( $page = 'home' ){
+
         	/**
         	 * Shows the 404 pages if dont exist a page in
         	 * the 
         	 */
-			if ( ! file_exists( APPPATH.'/views/pages/'.$page.'.php' ) ){
+			if ( ! file_exists( APPPATH.'/views/pages/' . $page . '.php' ) ){
 	                show_404();
 	        }
 
 	        /**
-	         * Set the title for using in the pages and templates, the first
+	         * Set the title and pabe_name for using in the pages and templates, the first
 	         * character is capitaliced.
 	         */
-			$data[ 'title' ] = ucfirst($page);
+			$this->data[ 'title' ] = ucfirst($page);
+			$this->data[ 'page' ] = $page;
 
 			/**
 			 * Loads the tamplates and the page for a static page.
 			 */
-			$this->load->view('templates/header', $data);
-			$this->load->view('pages/'.$page, $data);
-			$this->load->view('templates/footer', $data);
+			$this->load->view('templates/header', $this->data);
+			$this->load->view('pages/' . $this->data[ 'page' ], $this->data);
+			$this->load->view('templates/footer', $this->data);
         }
 
 }

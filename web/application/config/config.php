@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'localhost';
+$config['base_url'] = 'localhost/ProjektEventKalender/web/';
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['log_threshold'] = 0;
 | application/logs/ directory. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = 'C:\\xampp\\htdocs\\ProjektEventKalender\\web\\application\\logs\\';
+$config['log_path'] = '';
 
 /*
 |--------------------------------------------------------------------------
