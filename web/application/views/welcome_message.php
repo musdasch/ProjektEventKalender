@@ -14,11 +14,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </head>
 <body>
+	<div class="row">
+		<div class="small-12 columns">
+			<h1>Projekt Event-Kalender</h1>
+		</div>
+	</div>
+	
+	<!-- Load java script for foundation6 -->
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/foundation.min.js"></script>
 
-<h1>Projekt Event-Kalender</h1>
-
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/app.js"></script>
-<script src="js/foundation.min.js"></script>
 </body>
 </html>
