@@ -29,6 +29,7 @@ class Pages extends CI_Controller {
         	 * the 
         	 */
 			if ( ! file_exists( APPPATH.'/views/pages/' . $page . '.php' ) ){
+					/* ToDo - make 404 page */
 	                show_404();
 	        }
 
