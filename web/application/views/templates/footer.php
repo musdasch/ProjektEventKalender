@@ -16,7 +16,6 @@
 
 	<!-- Load java script for foundation6 -->
 	<script src="assets/js/vendor/jquery.min.js"></script>
-	<script src="assets/js/app.js"></script>
 	<script src="assets/js/foundation.min.js"></script>
 
 </body>

@@ -8,3 +8,27 @@
 #title{
 	margin-top: 50px;
 }
+
+.menu{
+	margin: 20px 0;
+	padding: 0;
+	border: 1px;
+	border-left: 0;
+	border-color: #DADADA;
+	border-style: solid;
+	border-right: 0;
+}
+
+.menu-item{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-item a{
+	color: #000;
+}
+
+.menu-item a:hover{
+	background-color: #DADADA;
+}

@@ -44,6 +44,7 @@ class Pages extends CI_Controller {
 			 * Loads the tamplates and the page for a static page.
 			 */
 			$this->load->view( 'templates/header', $this->data );
+			$this->load->view( 'templates/navigation', $this->data );
 			$this->load->view( 'pages/' . $this->data[ 'page' ], $this->data );
 			$this->load->view( 'templates/footer', $this->data );
         }
