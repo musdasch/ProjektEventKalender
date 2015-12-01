@@ -20,6 +20,12 @@ class Pages extends CI_Controller {
 			 * base_url() or oder funktions.
 			 */
             $this->load->helper('url');
+
+            /**
+             * Loads the database helper for loading
+             * Data from the database.
+             */
+            $this->load->database();
         }
 
         public function view( $page = 'home' ){
