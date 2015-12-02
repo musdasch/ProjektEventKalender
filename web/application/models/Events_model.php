@@ -29,14 +29,19 @@ class Events_model extends CI_Model {
          * @return Mixed         Returns NULL if is no data there.
          */
 	public function get_events($slug = FALSE){
+                /**
+                 * if is $slug false by default so return all events
+                 * @var boolean
+                 */
                 if ($slug === FALSE){
                         $query = $this->db->get('veranstaltung');
                         return $query->result_array();
                 }
 
+                /**
+                 * Have $slug a name form a event so return the event.
+                 */
                 $query = $this->db->get_where('veranstaltung', array('name' => $slug));
                 return $query->row_array();
         }
-
-
 }
