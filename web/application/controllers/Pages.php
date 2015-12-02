@@ -36,7 +36,7 @@ class Pages extends CI_Controller {
             $this->load->model( 'events_model' );
         }
 
-        public function indes(){
+        public function index(){
         	$data[ 'events' ] = $this->nwes_model->get_events();
         }
 
