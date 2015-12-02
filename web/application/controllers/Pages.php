@@ -28,7 +28,16 @@ class Pages extends CI_Controller {
 			 * Loads the url helper for using
 			 * base_url() or oder funktions.
 			 */
-            $this->load->helper('url');
+            $this->load->helper( 'url' );
+
+            /**
+             * Loads the events model for display the data on the pages.
+             */
+            $this->load->model( 'events_model' );
+        }
+
+        public function indes(){
+        	$data[ 'events' ] = $this->nwes_model->get_events();
         }
 
         public function view( $page = 'home' ){
