@@ -10,8 +10,17 @@
  */
 class Pages extends CI_Controller {
 
+		/**
+		 * $data holds the data for the pages.
+		 * @var array
+		 */
 		private $data = array();
 
+		/**
+		 * It is the constructor of the pages controller.
+		 * It loads the url helper class for useing the base_url function or
+		 * similar functions. 
+		 */
 		public function __construct() {
 			parent::__construct();
 
