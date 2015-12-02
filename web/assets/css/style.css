@@ -32,3 +32,7 @@
 .menu-item a:hover{
 	background-color: #DADADA;
 }
+
+table{
+	width: 100%;
+}
